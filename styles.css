@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+ 
+  h1 {
+    color: #FF9F1C;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  h2 {
+    color: #FFBF69;
+    font-family: "Nunito", sans-serif;
+    font-size: 2rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+  }
+  
+  h3 {
+    color: #6be9f7;
+    font-family: "Nunito", sans-serif;
+  }
+
+  .flower-row {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .flower-image {
+    width: 100px;
+    height: auto;
+  }
+  
+  hr {
+    border: dotted #f2a746 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+  }
+
+  p {
+    line-height: 2;
+  }
+
+  a {
+    color: #FF9F1C;
+    font-family: "Nunito", sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #D0F4DE;
+  }
+
+  .top-container {
+    background-color: #2EC4B6;
+    position: relative;
+    padding-top: 100px;
+  }
+
+  .middle-container {
+    margin: 100px 0;
+  }
+
+  .bottom-container {
+    background-color: #2EC4B6;
+    padding: 50px 0 20px;
+  }
+
+  .contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+  }
+
+  .btn {
+    background: #FF9F1C;
+    border-radius: 8px;
+    font-family: "Nunito", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+  }
+
+  .btn:hover {
+    background: #FFBF69;
+  }
+
+  .parent {
+    display: grid;
+    grid-template-columns:  1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+  }
+
+  #profile_img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    padding-right: 30px;
+  }
+
+  #dog{
+    height: 200px;
+    border-radius: 50%;
+    padding-right: 30px;
+  }
+
+
+
+ 
